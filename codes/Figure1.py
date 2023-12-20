@@ -58,6 +58,7 @@ def plot_pm1(pm1_data, pm1_col, pm1_f25_col, snsbins=100):
     return g
 
 # Reading and plotting different data sets
+# these data are too big to upload in github, please contacted me if you would like to have it.
 var0 = "no2"
 a2 = pyreadr.read_r("/Yourfolder/inputdata/" + var0 + "_validation.Rdata")
 plot_df = a2[None]
